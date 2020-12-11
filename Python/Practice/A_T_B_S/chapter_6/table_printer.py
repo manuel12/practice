@@ -1,6 +1,6 @@
 '''
 	GOAL:
-	
+
 	  apples	Alice	 dogs
 	 oranges	  Bob	 cats
 	cherries	Carol	moose
@@ -11,17 +11,9 @@ table_data = [
 	['Alice', 'Bob', 'Carol', 'David'],
 	['dogs', 'cats', 'moose', 'goose']]
 
-'''
-	INDEXES:
-
-	apples = table_data[0][0]
-	Alice = table_data[1][0]
-	dogs = table_data[2][0]
-
-'''
 	
-def get_longest_str_in_list(items):
-	lengths = [len(item) for item in items]
+def get_longest_str_in_list(_list):
+	lengths = [len(item) for item in _list]
 	return sorted(lengths, reverse=True)[0]
 
 def print_table(_list):
