@@ -3,7 +3,7 @@ print('Enter the Englsh message to translate into Pig Latin:')
 message = input()
 
 if len(message) == 0:
-	message = "My name is AL SWEIGART and I am 4,000 years old." 
+		message = "My name is AL SWEIGART and I am 4,000 years old." 
 
 VOWELS = ('a', 'e', 'i', 'o', 'u', 'y')
 
