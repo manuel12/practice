@@ -17,8 +17,8 @@ def is_valid_chess_board(board):
 	pieces_pos, pieces_names = list(board.keys()), list(board.values())
 
 	# Define valid items:
-	valid_numbers = '12345678'
-	valid_letters = 'abcdefgh'
+	valid_numbers 	= '12345678'
+	valid_letters 	= 'abcdefgh'
 	valid_colors 	= 'wb'
 	valid_names 	= ['pawn', 'knight', 'bishop', 'rook', 'king','queen']
 
