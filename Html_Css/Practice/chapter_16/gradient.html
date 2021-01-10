@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gradient</title>
+		<style type="text/css">
+			#gradient {
+				background-color: #66cccc;
+
+				background-image: url("iamges/fallback-image.png");
+
+				background-image: -moz-linear-gradient(#336666, #66cccc);
+
+				background-image: -webkit-gradient(linear, 0% 0% 0% 100%,
+					from(#66cccc), to(#336666));
+
+				background-image: -webkit-linear-gradient(#66cccc,#336666);
+
+				background-image: -o-linear-gradient(#336666, #66cccc);
+
+				height: 150px;
+
+				width: 300px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="gradient">
+		</div>
+	</body>
+</html>
