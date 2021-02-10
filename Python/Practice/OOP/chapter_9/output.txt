@@ -1,0 +1,9 @@
+# 		warnings = (l for l in infile if 'WARNING' in l)
+# 		warnings = (l.replace('\tWARNING', '')
+# 						for l in infile if 'WARNING' in l)
+# 			if 'WARNING' in l:
+# 				outfile.write(l.replace('\tWARNING', ''))
+# 		while l and 'WARNING' not in l:
+# 		return l.replace('\tWARNING', '')
+		if 'WARNING' in l:
+			yield l.replace('\tWARNING', '')
